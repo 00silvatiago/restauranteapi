@@ -1,0 +1,14 @@
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\bin\Debug\netcoreapp2.2\RestauranteApi.deps.json
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\bin\Debug\netcoreapp2.2\RestauranteApi.runtimeconfig.json
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\bin\Debug\netcoreapp2.2\RestauranteApi.runtimeconfig.dev.json
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\bin\Debug\netcoreapp2.2\RestauranteApi.dll
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.csprojAssemblyReference.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.csproj.CoreCompileInputs.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.RazorAssemblyInfo.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.RazorAssemblyInfo.cs
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.AssemblyInfoInputs.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.AssemblyInfo.cs
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.RazorTargetAssemblyInfo.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\bin\Debug\netcoreapp2.2\RestauranteApi.pdb
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.dll
+C:\Users\tiags\Source\Repos\RestauranteApi\RestauranteApi\obj\Debug\netcoreapp2.2\RestauranteApi.pdb

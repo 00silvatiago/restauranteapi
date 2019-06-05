@@ -1,0 +1,4 @@
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL.Infra\obj\Debug\netstandard2.0\Restaurante.DAL.Infra.csprojAssemblyReference.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL.Infra\obj\Debug\netstandard2.0\Restaurante.DAL.Infra.csproj.CoreCompileInputs.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL.Infra\obj\Debug\netstandard2.0\Restaurante.DAL.Infra.AssemblyInfoInputs.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL.Infra\obj\Debug\netstandard2.0\Restaurante.DAL.Infra.AssemblyInfo.cs

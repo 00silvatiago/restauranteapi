@@ -1,0 +1,6 @@
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.DAL.deps.json
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.DAL.dll
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.csprojAssemblyReference.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.csproj.CoreCompileInputs.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.AssemblyInfoInputs.cache
+C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.AssemblyInfo.cs
