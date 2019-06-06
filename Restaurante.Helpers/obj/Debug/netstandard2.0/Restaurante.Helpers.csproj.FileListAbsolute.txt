@@ -1,0 +1,9 @@
+C:\restauranteapi\Restaurante.Helpers\bin\Debug\netstandard2.0\Restaurante.Helpers.deps.json
+C:\restauranteapi\Restaurante.Helpers\bin\Debug\netstandard2.0\Restaurante.Helpers.dll
+C:\restauranteapi\Restaurante.Helpers\bin\Debug\netstandard2.0\Restaurante.Helpers.pdb
+C:\restauranteapi\Restaurante.Helpers\obj\Debug\netstandard2.0\Restaurante.Helpers.csprojAssemblyReference.cache
+C:\restauranteapi\Restaurante.Helpers\obj\Debug\netstandard2.0\Restaurante.Helpers.csproj.CoreCompileInputs.cache
+C:\restauranteapi\Restaurante.Helpers\obj\Debug\netstandard2.0\Restaurante.Helpers.AssemblyInfoInputs.cache
+C:\restauranteapi\Restaurante.Helpers\obj\Debug\netstandard2.0\Restaurante.Helpers.AssemblyInfo.cs
+C:\restauranteapi\Restaurante.Helpers\obj\Debug\netstandard2.0\Restaurante.Helpers.dll
+C:\restauranteapi\Restaurante.Helpers\obj\Debug\netstandard2.0\Restaurante.Helpers.pdb
