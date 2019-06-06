@@ -9,7 +9,7 @@ using Restaurante.Entities;
 
 namespace Restaurante.DAL.DataBaseContext
 {
-    class RestauranteDbContext : DbContext, IRestauranteDbContext
+    public class RestauranteDbContext : DbContext, IRestauranteDbContext
     {
         private IConfiguration configuration;
 

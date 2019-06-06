@@ -202,11 +202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.DAL.Infra\\Restaurante.DAL.Infra.csproj",
+      "projectUniqueName": "C:\\restauranteapi\\Restaurante.DAL.Infra\\Restaurante.DAL.Infra.csproj",
       "projectName": "Restaurante.DAL.Infra",
-      "projectPath": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.DAL.Infra\\Restaurante.DAL.Infra.csproj",
+      "projectPath": "C:\\restauranteapi\\Restaurante.DAL.Infra\\Restaurante.DAL.Infra.csproj",
       "packagesPath": "C:\\Users\\tiags\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.DAL.Infra\\obj\\",
+      "outputPath": "C:\\restauranteapi\\Restaurante.DAL.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -227,8 +227,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.Entities\\Restaurante.Entities.csproj": {
-              "projectPath": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.Entities\\Restaurante.Entities.csproj"
+            "C:\\restauranteapi\\Restaurante.Entities\\Restaurante.Entities.csproj": {
+              "projectPath": "C:\\restauranteapi\\Restaurante.Entities\\Restaurante.Entities.csproj"
             }
           }
         }

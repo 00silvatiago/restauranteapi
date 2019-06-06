@@ -11,7 +11,7 @@ namespace Restaurante.DAL
 
         public RepositoryBase(TContext dbContext)
         {
-            _dbContext = dbContext
+            _dbContext = dbContext;
         }
 
     }

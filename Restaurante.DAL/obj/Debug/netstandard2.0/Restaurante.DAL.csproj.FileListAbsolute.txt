@@ -4,3 +4,17 @@ C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\obj\Debug\netstandard
 C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.csproj.CoreCompileInputs.cache
 C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.AssemblyInfoInputs.cache
 C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.AssemblyInfo.cs
+C:\restauranteapi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.DAL.deps.json
+C:\restauranteapi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.DAL.dll
+C:\restauranteapi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.DAL.pdb
+C:\restauranteapi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.DAL.Infra.dll
+C:\restauranteapi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.Entities.dll
+C:\restauranteapi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.DAL.Infra.pdb
+C:\restauranteapi\Restaurante.DAL\bin\Debug\netstandard2.0\Restaurante.Entities.pdb
+C:\restauranteapi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.csprojAssemblyReference.cache
+C:\restauranteapi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.csproj.CoreCompileInputs.cache
+C:\restauranteapi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.AssemblyInfoInputs.cache
+C:\restauranteapi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.AssemblyInfo.cs
+C:\restauranteapi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.csproj.CopyComplete
+C:\restauranteapi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.dll
+C:\restauranteapi\Restaurante.DAL\obj\Debug\netstandard2.0\Restaurante.DAL.pdb

@@ -10,3 +10,15 @@ C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.Entities\obj\Debug\netsta
 C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.csproj.CopyComplete
 C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.dll
 C:\Users\tiags\Source\Repos\RestauranteApi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.pdb
+C:\restauranteapi\Restaurante.Entities\bin\Debug\netstandard2.0\Restaurante.Entities.deps.json
+C:\restauranteapi\Restaurante.Entities\bin\Debug\netstandard2.0\Restaurante.Entities.dll
+C:\restauranteapi\Restaurante.Entities\bin\Debug\netstandard2.0\Restaurante.Entities.pdb
+C:\restauranteapi\Restaurante.Entities\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\restauranteapi\Restaurante.Entities\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\restauranteapi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.csprojAssemblyReference.cache
+C:\restauranteapi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.csproj.CoreCompileInputs.cache
+C:\restauranteapi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.AssemblyInfoInputs.cache
+C:\restauranteapi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.AssemblyInfo.cs
+C:\restauranteapi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.csproj.CopyComplete
+C:\restauranteapi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.dll
+C:\restauranteapi\Restaurante.Entities\obj\Debug\netstandard2.0\Restaurante.Entities.pdb

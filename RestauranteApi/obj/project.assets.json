@@ -1704,11 +1704,11 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/2.2.0": {
+      "Microsoft.EntityFrameworkCore/2.2.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.1",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.1",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.Logging": "2.2.0",
@@ -1725,7 +1725,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -1734,7 +1734,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/2.2.1": {
         "type": "package"
       },
       "Microsoft.EntityFrameworkCore.Design/2.2.0": {
@@ -2859,7 +2859,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -4720,6 +4720,82 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Restaurante.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Restaurante.BLL.Infra": "1.0.0",
+          "Restaurante.DAL.Infra": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurante.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurante.BLL.dll": {}
+        }
+      },
+      "Restaurante.BLL.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Restaurante.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurante.BLL.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurante.BLL.Infra.dll": {}
+        }
+      },
+      "Restaurante.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
+          "Restaurante.DAL.Infra": "1.0.0",
+          "Restaurante.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurante.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurante.DAL.dll": {}
+        }
+      },
+      "Restaurante.DAL.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Restaurante.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurante.DAL.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurante.DAL.Infra.dll": {}
+        }
+      },
+      "Restaurante.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Restaurante.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurante.Entities.dll": {}
+        }
+      },
+      "Restaurante.Helpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Restaurante.Helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurante.Helpers.dll": {}
+        }
       }
     }
   },
@@ -6200,41 +6276,41 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/2.2.0": {
-      "sha512": "xfDHe+J94oz2d+ESDU8u+96iSfsiPwpgYGPRSp/bato0Ekjz5kYs61u9mS0GN5t8n/wxc5P3uEJm1x7TfROxhQ==",
+    "Microsoft.EntityFrameworkCore/2.2.1": {
+      "sha512": "5fRYoE43lFwUd45Qp72IeaWxztgKFhKtH+/5w9J+f3jCPKux/qGriKMxWW+9V4BDu/p1xWtFJQFtcNfhOo+3dQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/2.2.0",
+      "path": "microsoft.entityframeworkcore/2.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.2.2.1.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
-      "sha512": "/js/H09B8MQGoPDFzJoaAealyL66g4vKf7DVcdBYcxgKztkttjZbRzSWKF9PZZFyfBl9Ia/BiStM70t7kjgMpg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.1": {
+      "sha512": "upsGw2amZa0LNu/dAmDKQtc53q/9DjMA/wuDlv7lSzVHj2PlHewYlnMGtomI4YEf/lRqe5Z4V+QPJFdMGVZlaA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/2.2.0",
+      "path": "microsoft.entityframeworkcore.abstractions/2.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.2.2.1.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
-      "sha512": "/1rw3toRCal80Ch51lIjuf/0WfW9ZGB4eRY1y6GOcOoOvnMXXXt+4xMRw/0k0kIwHsWUNXUpw73jf40/Pe+ZYA==",
+    "Microsoft.EntityFrameworkCore.Analyzers/2.2.1": {
+      "sha512": "449BpHABVbtekNyo1a00URxgPB1CFF3TaONAY1vXbU67jS5QOynjUbH+MiCkJVtIzoxuDOS2ybSOVGR8zd0J/Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/2.2.0",
+      "path": "microsoft.entityframeworkcore.analyzers/2.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.2.2.1.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -8038,10 +8114,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8064,7 +8140,7 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
@@ -12922,6 +12998,36 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Restaurante.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Restaurante.BLL/Restaurante.BLL.csproj",
+      "msbuildProject": "../Restaurante.BLL/Restaurante.BLL.csproj"
+    },
+    "Restaurante.BLL.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Restaurante.BLL.Infra/Restaurante.BLL.Infra.csproj",
+      "msbuildProject": "../Restaurante.BLL.Infra/Restaurante.BLL.Infra.csproj"
+    },
+    "Restaurante.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Restaurante.DAL/Restaurante.DAL.csproj",
+      "msbuildProject": "../Restaurante.DAL/Restaurante.DAL.csproj"
+    },
+    "Restaurante.DAL.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Restaurante.DAL.Infra/Restaurante.DAL.Infra.csproj",
+      "msbuildProject": "../Restaurante.DAL.Infra/Restaurante.DAL.Infra.csproj"
+    },
+    "Restaurante.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Restaurante.Entities/Restaurante.Entities.csproj",
+      "msbuildProject": "../Restaurante.Entities/Restaurante.Entities.csproj"
+    },
+    "Restaurante.Helpers/1.0.0": {
+      "type": "project",
+      "path": "../Restaurante.Helpers/Restaurante.Helpers.csproj",
+      "msbuildProject": "../Restaurante.Helpers/Restaurante.Helpers.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12929,7 +13035,13 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "Newtonsoft.Json >= 12.0.2",
+      "Restaurante.BLL >= 1.0.0",
+      "Restaurante.BLL.Infra >= 1.0.0",
+      "Restaurante.DAL >= 1.0.0",
+      "Restaurante.DAL.Infra >= 1.0.0",
+      "Restaurante.Helpers >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12940,11 +13052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\RestauranteApi\\RestauranteApi.csproj",
+      "projectUniqueName": "C:\\restauranteapi\\RestauranteApi\\RestauranteApi.csproj",
       "projectName": "RestauranteApi",
-      "projectPath": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\RestauranteApi\\RestauranteApi.csproj",
+      "projectPath": "C:\\restauranteapi\\RestauranteApi\\RestauranteApi.csproj",
       "packagesPath": "C:\\Users\\tiags\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\RestauranteApi\\obj\\",
+      "outputPath": "C:\\restauranteapi\\RestauranteApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12964,7 +13076,23 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\restauranteapi\\Restaurante.BLL.Infra\\Restaurante.BLL.Infra.csproj": {
+              "projectPath": "C:\\restauranteapi\\Restaurante.BLL.Infra\\Restaurante.BLL.Infra.csproj"
+            },
+            "C:\\restauranteapi\\Restaurante.BLL\\Restaurante.BLL.csproj": {
+              "projectPath": "C:\\restauranteapi\\Restaurante.BLL\\Restaurante.BLL.csproj"
+            },
+            "C:\\restauranteapi\\Restaurante.DAL.Infra\\Restaurante.DAL.Infra.csproj": {
+              "projectPath": "C:\\restauranteapi\\Restaurante.DAL.Infra\\Restaurante.DAL.Infra.csproj"
+            },
+            "C:\\restauranteapi\\Restaurante.DAL\\Restaurante.DAL.csproj": {
+              "projectPath": "C:\\restauranteapi\\Restaurante.DAL\\Restaurante.DAL.csproj"
+            },
+            "C:\\restauranteapi\\Restaurante.Helpers\\Restaurante.Helpers.csproj": {
+              "projectPath": "C:\\restauranteapi\\Restaurante.Helpers\\Restaurante.Helpers.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -12996,6 +13124,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.2.3, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
           }
         },
         "imports": [

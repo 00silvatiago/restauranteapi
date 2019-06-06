@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.Entities\\Restaurante.Entities.csproj": {}
+    "C:\\restauranteapi\\Restaurante.Entities\\Restaurante.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.Entities\\Restaurante.Entities.csproj": {
+    "C:\\restauranteapi\\Restaurante.Entities\\Restaurante.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.Entities\\Restaurante.Entities.csproj",
+        "projectUniqueName": "C:\\restauranteapi\\Restaurante.Entities\\Restaurante.Entities.csproj",
         "projectName": "Restaurante.Entities",
-        "projectPath": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.Entities\\Restaurante.Entities.csproj",
+        "projectPath": "C:\\restauranteapi\\Restaurante.Entities\\Restaurante.Entities.csproj",
         "packagesPath": "C:\\Users\\tiags\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiags\\Source\\Repos\\RestauranteApi\\Restaurante.Entities\\obj\\",
+        "outputPath": "C:\\restauranteapi\\Restaurante.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

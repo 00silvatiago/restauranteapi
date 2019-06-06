@@ -15,11 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Entities", "4.Entities", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Helpers", "5.Helpers", "{36B5C36B-385B-4FB6-80B9-30BC8619D0DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.Entities", "Restaurante.Entities\Restaurante.Entities.csproj", "{3A162EE7-0DEF-40A3-9417-8E75B7263D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurante.Entities", "Restaurante.Entities\Restaurante.Entities.csproj", "{3A162EE7-0DEF-40A3-9417-8E75B7263D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.DAL", "Restaurante.DAL\Restaurante.DAL.csproj", "{59F1DB7B-DEE3-40BA-8304-E84A6919A347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurante.DAL", "Restaurante.DAL\Restaurante.DAL.csproj", "{59F1DB7B-DEE3-40BA-8304-E84A6919A347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.DAL.Infra", "Restaurante.DAL.Infra\Restaurante.DAL.Infra.csproj", "{46C223E8-DCC2-44BA-A62D-B074F12CA960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurante.DAL.Infra", "Restaurante.DAL.Infra\Restaurante.DAL.Infra.csproj", "{46C223E8-DCC2-44BA-A62D-B074F12CA960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.BLL", "Restaurante.BLL\Restaurante.BLL.csproj", "{48108C60-04D8-4ACB-9751-7F7BD4951F16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.BLL.Infra", "Restaurante.BLL.Infra\Restaurante.BLL.Infra.csproj", "{1EF3B37F-D97D-42DC-A355-C509B5D72C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.Helpers", "Restaurante.Helpers\Restaurante.Helpers.csproj", "{46B64B96-E253-48C6-8637-DED34BCEAC43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +49,18 @@ Global
 		{46C223E8-DCC2-44BA-A62D-B074F12CA960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46C223E8-DCC2-44BA-A62D-B074F12CA960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46C223E8-DCC2-44BA-A62D-B074F12CA960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48108C60-04D8-4ACB-9751-7F7BD4951F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48108C60-04D8-4ACB-9751-7F7BD4951F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48108C60-04D8-4ACB-9751-7F7BD4951F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48108C60-04D8-4ACB-9751-7F7BD4951F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF3B37F-D97D-42DC-A355-C509B5D72C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF3B37F-D97D-42DC-A355-C509B5D72C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF3B37F-D97D-42DC-A355-C509B5D72C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF3B37F-D97D-42DC-A355-C509B5D72C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B64B96-E253-48C6-8637-DED34BCEAC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B64B96-E253-48C6-8637-DED34BCEAC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B64B96-E253-48C6-8637-DED34BCEAC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B64B96-E253-48C6-8637-DED34BCEAC43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +70,9 @@ Global
 		{3A162EE7-0DEF-40A3-9417-8E75B7263D93} = {BB277EA0-A22A-4ECA-A7DB-17BB1AA1A3EA}
 		{59F1DB7B-DEE3-40BA-8304-E84A6919A347} = {43D6D111-3963-4F9D-B5AF-FD6498AD43CE}
 		{46C223E8-DCC2-44BA-A62D-B074F12CA960} = {43D6D111-3963-4F9D-B5AF-FD6498AD43CE}
+		{48108C60-04D8-4ACB-9751-7F7BD4951F16} = {38BD2244-428D-4E52-AA1D-1AB895B45C22}
+		{1EF3B37F-D97D-42DC-A355-C509B5D72C1F} = {38BD2244-428D-4E52-AA1D-1AB895B45C22}
+		{46B64B96-E253-48C6-8637-DED34BCEAC43} = {36B5C36B-385B-4FB6-80B9-30BC8619D0DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E90CE0AB-30C4-430B-A71E-53159AE9D61C}
