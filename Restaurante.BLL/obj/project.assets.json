@@ -232,8 +232,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tiags\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\tiago.rodrigues\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -242,17 +241,15 @@
       "projectUniqueName": "C:\\restauranteapi\\Restaurante.BLL\\Restaurante.BLL.csproj",
       "projectName": "Restaurante.BLL",
       "projectPath": "C:\\restauranteapi\\Restaurante.BLL\\Restaurante.BLL.csproj",
-      "packagesPath": "C:\\Users\\tiags\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\tiago.rodrigues\\.nuget\\packages\\",
       "outputPath": "C:\\restauranteapi\\Restaurante.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tiags\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\tiago.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

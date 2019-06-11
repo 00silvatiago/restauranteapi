@@ -33,13 +33,13 @@ namespace RestauranteApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // DB CONTEXT
+            //  DB CONTEXT
             services.AddScoped<IRestauranteDbContext, RestauranteDbContext>();
 
             //  REPOSITORY
             services.AddScoped<ILoginRepository, LoginRepository>();
 
-            // BLL 
+            //  BLL 
             services.AddScoped<ILoginBLL, LoginBLL>();
 
             //  UoW

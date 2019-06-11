@@ -15,7 +15,7 @@ namespace RestauranteApi.Controllers
         {
             try
             {
-                return Ok(name + " o Guilherme é muito viado");
+                return BadRequest(name + ", essa API funcionou!");
             }
             catch (Exception e)
             {
