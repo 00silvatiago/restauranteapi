@@ -5,7 +5,7 @@ using Restaurante.DAL.Infra;
 
 namespace Restaurante.DAL
 {
-    public abstract class RepositoryBase<TContext> where TContext : IRestauranteDbContext
+    public abstract class RepositoryBase<TContext>// where TContext : IAlunoDbContext, ILoginDbContext
     {
         protected TContext _dbContext;
 
@@ -13,6 +13,5 @@ namespace Restaurante.DAL
         {
             _dbContext = dbContext;
         }
-
     }
 }

@@ -6,8 +6,9 @@ using Restaurante.Entities;
 
 namespace Restaurante.DAL.Infra
 {
-    public interface IRestauranteDbContext : IDataBaseContext
+    public interface ILoginDbContext : IDataBaseContext
     {
         IQueryable<Login> QueryLogin { get; }
+        
     }
 }

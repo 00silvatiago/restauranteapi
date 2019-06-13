@@ -9,12 +9,10 @@ using Restaurante.Entities;
 
 namespace Restaurante.DAL
 {
-    public class LoginRepository : RepositoryBase<IRestauranteDbContext>, ILoginRepository
+    public class LoginRepository : RepositoryBase<ILoginDbContext>, ILoginRepository
     {
-        public LoginRepository(IRestauranteDbContext dbContext) : base(dbContext)
-        {
-
-        }
+        public LoginRepository(ILoginDbContext dbContext) : base(dbContext)
+        {}
 
         /// <summary>
         /// METODO RESPONSÁVEL POR RETORNAR O LOGIN DO USUÁRIO
@@ -38,6 +36,7 @@ namespace Restaurante.DAL
         /// <summary>
         /// MÉTODO RESPONSAVEL POR PERSISTIR O LOGIN DO USUÁRIO 
         /// </summary>
+        /// 
         /// <param name="login">OBJETO LOGIN</param>
         /// <returns>OBJETO LOGIN</returns>
             

@@ -9,7 +9,7 @@ using Restaurante.Entities;
 
 namespace Restaurante.DAL.DataBaseContext
 {
-    public class RestauranteDbContext : DbContext, IRestauranteDbContext
+    public class RestauranteDbContext : DbContext, ILoginDbContext, IAlunoDbContext
     {
         private IConfiguration configuration;
 
@@ -32,6 +32,10 @@ namespace Restaurante.DAL.DataBaseContext
 
         public DbSet<Login> Login { get; set; }
         public IQueryable<Login> QueryLogin { get { return Login; } }
-         
+
+        public DbSet<Aluno> Aluno { get; set; }
+        public IQueryable<Aluno> QueryAluno { get { return Aluno; } }
+
+
     }
 }
