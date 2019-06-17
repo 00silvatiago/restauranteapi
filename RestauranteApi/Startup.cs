@@ -35,18 +35,24 @@ namespace RestauranteApi
         {
             //  DB CONTEXT
             services.AddScoped<ILoginDbContext, RestauranteDbContext>();
+            services.AddScoped<IAlunoDbContext, RestauranteDbContext>();
+            services.AddScoped<IVotacaoDbContext, RestauranteDbContext>();
+
 
             //  REPOSITORY
             services.AddScoped<ILoginRepository, LoginRepository>();
             services.AddScoped<IAlunoRepository, AlunoRepository>();
+            services.AddScoped<IVotacaoRepository, VotacaoRepository>(); 
 
             //  BLL 
             services.AddScoped<ILoginBLL, LoginBLL>();
             services.AddScoped<IAlunoBLL, AlunoBLL>();
+            services.AddScoped<IVotacaoBLL, IVotacaoBLL>();
 
             //  UoW
             services.AddScoped<ILoginUoW, LoginUoW>();
             services.AddScoped<IAlunoUoW, AlunoUoW>();
+            services.AddScoped<IVotacaoUoW, VotacaoUoW>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 // FORMATACAO JSON (PASCAL CASE)
