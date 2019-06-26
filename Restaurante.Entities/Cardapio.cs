@@ -11,7 +11,6 @@ namespace Restaurante.Entities
     {
         [Key]           
         public int ID_CARDAPIO { get; set; }
-        public int ID_RESTAURANTE { get; set; }
         public string CARDAPIO_PRATO { get; set; }
         public string CARDAPIO_PRATO_DIA { get; set; }
     }

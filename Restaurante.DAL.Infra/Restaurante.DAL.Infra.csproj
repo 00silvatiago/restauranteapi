@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Cardapio.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Restaurante.Entities\Restaurante.Entities.csproj" />
   </ItemGroup>
 

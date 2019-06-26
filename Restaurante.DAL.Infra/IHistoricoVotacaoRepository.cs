@@ -8,6 +8,6 @@ namespace Restaurante.DAL.Infra
 {
     public interface IHistoricoVotacaoRepository
     {
-        Task<Login> GetHistoricoVotacaoAsync(DateTime HISTVOT_DATA);
+        Task<HistoricoVotacao> GetHistoricoVotacaoAsync(DateTime HISTVOT_DATA);
     }
 }

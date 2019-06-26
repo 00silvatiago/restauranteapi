@@ -55,8 +55,9 @@ namespace RestauranteApi
             services.AddScoped<IVotacaoUoW, VotacaoUoW>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
-                // FORMATACAO JSON (PASCAL CASE)
                 .AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

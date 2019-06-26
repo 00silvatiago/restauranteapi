@@ -9,7 +9,5 @@ namespace Restaurante.DAL.Infra
     public interface ICardapioRepository
     {
         Task<Cardapio> GetCardapioAsync(int ID_CARDAPIO);
-        Task<Cardapio> PostCardapioAsync(Cardapio cardapio);
-        Task<Cardapio> PutCardapioAsync(Cardapio cardapio);
     }
 }

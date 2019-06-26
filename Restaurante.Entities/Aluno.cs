@@ -13,6 +13,6 @@ namespace Restaurante.Entities
         public int ID_ALUNO { get; set; }
         public string ALUNO_NOME { get; set; }
         public string ALUNO_EMAIL { get; set; }
-        public int LGN_ID { get; set; }
+        public Login LGN_ID { get; set; }
     }
 }

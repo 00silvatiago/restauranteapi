@@ -9,7 +9,7 @@ using Restaurante.Entities;
 
 namespace Restaurante.DAL.DataBaseContext
 {
-    public class RestauranteDbContext : DbContext, ILoginDbContext, IAlunoDbContext, IVotacaoDbContext
+    public class RestauranteDbContext : DbContext, ILoginDbContext, IAlunoDbContext, IVotacaoDbContext, ICardapioDbContext, IHistoricoVotacaoDbContext, IRestauranteLocalDbContext                                                         
     {
         private IConfiguration configuration;
 
@@ -38,5 +38,18 @@ namespace Restaurante.DAL.DataBaseContext
 
         public DbSet<Votacao> Votacao { get; set; }
         public IQueryable<Votacao> QueryVotacao { get { return Votacao; } }
+
+        public DbSet<Cardapio> Cardapio { get; set; }
+        public IQueryable<Cardapio> QueryCardapio { get { return Cardapio; } }
+
+        public DbSet<Entities.RestauranteLocal> RestauranteLocal { get; set; }
+        //public IQueryable<RestauranteLocal> QueryRestauranteLocal { get { return RestauranteLocal; } }
+        IQueryable<Entities.RestauranteLocal> IRestauranteLocalDbContext.QueryRestauranteLocal { get { return RestauranteLocal; } }
+
+        public DbSet<Entities.HistoricoVotacao> HistoricoVotacao { get; set; }
+        //public IQueryable<HistoricoVotacao> QueryHistoricoVotacao { get { return HistoricoVotacao; } }
+        IQueryable<Entities.HistoricoVotacao> IHistoricoVotacaoDbContext.QueryHistoricoVotacao { get { return HistoricoVotacao; } }
+
+        
     }
 }

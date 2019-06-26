@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Restaurante.DAL.Infra
 {
-    public interface IHistoricoVotacaoDbContext : IDataBaseContext
+    public interface IHistoricoVotacaoDbContext: IDataBaseContext
     {
         IQueryable<HistoricoVotacao> QueryHistoricoVotacao { get; }
     }

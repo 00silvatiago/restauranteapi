@@ -11,7 +11,7 @@ using RestauranteApi.UoW.Infra;
 
 namespace RestauranteApi.Controllers
 {
-    public class VotacaoController
+    public class VotacaoController : ControllerBase
     {
         private IVotacaoUoW _votacaoUoW;
 
@@ -30,8 +30,7 @@ namespace RestauranteApi.Controllers
             {
                 response.Object = await _votacaoUoW.votacaoBLL.GetVotacaoAsync(dataVotacao);
                 response.Message = "Requisição realizada com sucesso.";
-                response.Status = true; 
-                    
+                response.Status = true;                     
             }
             catch (Exception ex)
             {
@@ -42,9 +41,26 @@ namespace RestauranteApi.Controllers
             return Ok(response);
         }
 
-        private IActionResult Ok(ResponseContent response)
+        [Route("api/votacao/post"), HttpPost]
+        public async Task<IActionResult> PostLogin(Votacao votacao)
         {
-            throw new NotImplementedException();
+            var response = new ResponseContent();
+
+            try
+            {
+                response.Object = await _votacaoUoW.votacaoBLL.PostVotacaoAsync(votacao);
+                response.Message = "Requisição realizada com sucesso.";
+                response.Status = true;
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+                response.Status = false;
+            }
+
+            return Ok(response);
         }
+
+
     }
 }

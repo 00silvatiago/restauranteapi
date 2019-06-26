@@ -11,8 +11,8 @@ namespace Restaurante.Entities
     {
         [Key]
         public int ID_VOTACAO { get; set; }
-        public int ID_RESTAURANTE { get; set; }
-        public int ID_ALUNO { get; set; }
+        public Restaurante ID_RESTAURANTE { get; set; }
+        public Aluno ID_ALUNO { get; set; }
         public DateTime VOTACAO_DATA { get; set; }
     }
 }
